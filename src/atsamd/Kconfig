@@ -253,7 +253,6 @@ choice
         bool "CAN bus (on PB15/PB14)"
 endchoice
 
-<<<<<<< HEAD
 config ATSAMD_SERIAL_RX_ALT
     bool
 
@@ -1019,22 +1018,5 @@ choice
 endchoice
 
 source "src/atsamd/t5uid1/Kconfig"
-=======
-config ATSAMD_CANBUS_PA23_PA22
-    bool
-    default y if ATSAMD_MMENU_CANBUS_PA23_PA22 || ATSAMD_CMENU_CANBUS_PA23_PA22
-config ATSAMD_CANBUS_PA25_PA24
-    bool
-    default y if ATSAMD_MMENU_CANBUS_PA25_PA24
-config ATSAMD_CANBUS_PB11_PB10
-    bool
-    default y if ATSAMD_MMENU_CANBUS_PB11_PB10
-config ATSAMD_CANBUS_PB13_PB12
-    bool
-    default y if ATSAMD_MMENU_CANBUS_PB13_PB12 || ATSAMD_CMENU_CANBUS_PB13_PB12
-config ATSAMD_CANBUS_PB15_PB14
-    bool
-    default y if ATSAMD_MMENU_CANBUS_PB15_PB14 || ATSAMD_CMENU_CANBUS_PB15_PB14
->>>>>>> 37315bf3365484c3ba6adef2b7da2b4464980e8a
 
 endif
