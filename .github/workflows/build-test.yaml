@@ -4,12 +4,12 @@ on: [push, pull_request]
 
 jobs:
   build:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
     steps:
     - uses: actions/checkout@v2
 
     - name: Setup cache
-      uses: actions/cache@v2
+      uses: actions/cache@v3
       with:
         path: ci_cache
         key: ${{ runner.os }}-build-${{ hashFiles('scripts/ci-install.sh') }}
