@@ -1,3 +1,5 @@
+[![Build test](https://github.com/rafmonteiro/klipper/actions/workflows/build-test.yaml/badge.svg)](https://github.com/rafmonteiro/klipper/actions/workflows/build-test.yaml)
+
 # [ℹ️ New version available for testing](https://github.com/Desuuuu/klipper/discussions/74)
 
 Welcome to the Klipper project!
